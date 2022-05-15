@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookies": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemod": "^3.0.6",
+    "nodemon": "^2.0.16",
+    "stream-chat": "^6.5.1",
+    "stream-chat-react": "^8.1.2",
+    "universal-cookie": "^4.0.4",
+    "uuid": "^8.3.2"
+  }
+}
